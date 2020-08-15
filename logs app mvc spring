@@ -1,0 +1,104 @@
+julio@Notebook-Julio:~/Documentos/Programação/RepositórioGit/MVC-Spring/spring-mvc-julio$ heroku logs --tail
+ ›   Warning: heroku update available from 7.42.4 to 7.42.6.
+2020-08-14T06:35:06.687528+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=3440 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T06:35:09.645321+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T06:35:09.709167+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T06:35:09.748261+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-14T06:35:10.000000+00:00 app[api]: Build succeeded
+2020-08-14T06:37:49.188347+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=spring-mvc-julio.herokuapp.com request_id=11831906-f391-4653-b85f-83fa11758540 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-14T06:37:50.004144+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=spring-mvc-julio.herokuapp.com request_id=5fcadf64-9a90-4e49-a4dc-919cad716991 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-14T06:38:14.801808+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-14T06:38:19.411332+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=36379 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T06:38:21.820905+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T06:38:21.873813+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T06:38:21.927914+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-14T06:38:37.442529+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=spring-mvc-julio.herokuapp.com request_id=0ff9ecbc-61c3-4455-ae3a-699e56f9ed2c fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-14T06:38:38.736284+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=spring-mvc-julio.herokuapp.com request_id=d7aa64c0-b582-4d81-af77-fa2c149948b7 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-14T06:47:32.000000+00:00 app[api]: Build started by user j.cezar19@hotmail.com
+2020-08-14T06:47:56.298295+00:00 app[api]: Deploy 68acb0a2 by user j.cezar19@hotmail.com
+2020-08-14T06:47:56.298295+00:00 app[api]: Release v7 created by user j.cezar19@hotmail.com
+2020-08-14T06:47:56.451552+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-14T06:48:01.403934+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=21494 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T06:48:03.453106+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T06:48:03.504252+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T06:48:03.548588+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-14T06:48:05.000000+00:00 app[api]: Build succeeded
+2020-08-14T06:50:15.969967+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-14T06:50:20.337400+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=20758 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T06:50:23.032444+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T06:50:23.087422+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T06:50:23.131207+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-14T06:51:49.000000+00:00 app[api]: Build started by user j.cezar19@hotmail.com
+2020-08-14T06:52:22.265184+00:00 app[api]: Release v8 created by user j.cezar19@hotmail.com
+2020-08-14T06:52:22.265184+00:00 app[api]: Deploy fc1a8750 by user j.cezar19@hotmail.com
+2020-08-14T06:52:22.436804+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-14T06:52:26.486575+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=3209 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T06:52:28.886243+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T06:52:28.966372+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T06:52:29.011382+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-14T06:52:31.000000+00:00 app[api]: Build succeeded
+2020-08-14T06:54:50.000000+00:00 app[api]: Build started by user j.cezar19@hotmail.com
+2020-08-14T06:55:13.219058+00:00 app[api]: Release v9 created by user j.cezar19@hotmail.com
+2020-08-14T06:55:13.219058+00:00 app[api]: Deploy bb84bb27 by user j.cezar19@hotmail.com
+2020-08-14T06:55:13.538601+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-14T06:55:17.791473+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=59516 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T06:55:20.290310+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T06:55:20.333136+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T06:55:20.381622+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-14T06:55:21.000000+00:00 app[api]: Build succeeded
+2020-08-14T07:14:35.238176+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=spring-mvc-julio.herokuapp.com request_id=87e0b857-8ebd-40b2-8d31-20eb5182778d fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-14T07:14:35.787732+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=spring-mvc-julio.herokuapp.com request_id=324273c1-3955-4991-9f0e-280c07cb68a3 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-14T07:20:32.895622+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-14T07:20:37.631552+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=11606 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T07:20:40.379065+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T07:20:40.434028+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T07:20:40.485984+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-14T07:46:39.717532+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-14T07:46:44.831570+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=14654 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T07:46:47.740955+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T07:46:47.817780+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T07:46:47.873872+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-14T08:27:05.003264+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-14T08:27:08.715270+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=11237 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T08:27:10.255228+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T08:27:10.294209+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T08:27:10.325309+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-14T09:50:26.657594+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-14T09:50:31.440739+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=24852 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T09:50:34.104920+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T09:50:34.167491+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T09:50:34.210609+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-14T12:42:07.088528+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-14T12:42:12.035382+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=11890 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T12:42:14.860950+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T12:42:14.914322+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T12:42:14.968623+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-14T18:31:31.957663+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-14T18:31:36.727357+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=58887 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-14T18:31:39.886517+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-14T18:31:39.956930+00:00 heroku[web.1]: Process exited with status 0
+2020-08-14T18:31:40.009054+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-15T00:00:05.307163+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-15T00:00:09.420806+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=53454 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-15T00:00:11.489431+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-15T00:00:11.532345+00:00 heroku[web.1]: Process exited with status 0
+2020-08-15T00:00:11.565173+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-15T05:36:37.862600+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-15T05:36:42.386927+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=20727 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-15T05:36:44.187614+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-15T05:36:44.231882+00:00 heroku[web.1]: Process exited with status 0
+2020-08-15T05:36:44.267005+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-15T11:05:10.877378+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-15T11:05:15.578674+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=33183 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-15T11:05:19.438233+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-15T11:05:19.534384+00:00 heroku[web.1]: Process exited with status 0
+2020-08-15T11:05:19.576515+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-15T16:55:33.481913+00:00 heroku[web.1]: State changed from crashed to starting
+2020-08-15T16:55:37.262279+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=4122 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
+2020-08-15T16:55:39.160104+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2020-08-15T16:55:39.209864+00:00 heroku[web.1]: Process exited with status 0
+2020-08-15T16:55:39.243341+00:00 heroku[web.1]: State changed from starting to crashed
+2020-08-15T21:55:40.364123+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=spring-mvc-julio.herokuapp.com request_id=84b8523a-088f-464e-93d8-42ca553eba55 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
+2020-08-15T21:55:41.474621+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=spring-mvc-julio.herokuapp.com request_id=2ca7f53a-5053-48c8-ae5c-2c1b29943148 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
+
+
