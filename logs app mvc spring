@@ -1,104 +1,103 @@
-julio@Notebook-Julio:~/Documentos/Programação/RepositórioGit/MVC-Spring/spring-mvc-julio$ heroku logs --tail
+julio@Notebook-Julio:~/Documentos/Programação/Heroku/spring-mvc-julio$ heroku logs --tail
  ›   Warning: heroku update available from 7.42.4 to 7.42.6.
-2020-08-14T06:35:06.687528+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=3440 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T06:35:09.645321+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T06:35:09.709167+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T06:35:09.748261+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-14T06:35:10.000000+00:00 app[api]: Build succeeded
-2020-08-14T06:37:49.188347+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=spring-mvc-julio.herokuapp.com request_id=11831906-f391-4653-b85f-83fa11758540 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
-2020-08-14T06:37:50.004144+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=spring-mvc-julio.herokuapp.com request_id=5fcadf64-9a90-4e49-a4dc-919cad716991 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
-2020-08-14T06:38:14.801808+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-14T06:38:19.411332+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=36379 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T06:38:21.820905+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T06:38:21.873813+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T06:38:21.927914+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-14T06:38:37.442529+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=spring-mvc-julio.herokuapp.com request_id=0ff9ecbc-61c3-4455-ae3a-699e56f9ed2c fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
-2020-08-14T06:38:38.736284+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=spring-mvc-julio.herokuapp.com request_id=d7aa64c0-b582-4d81-af77-fa2c149948b7 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
-2020-08-14T06:47:32.000000+00:00 app[api]: Build started by user j.cezar19@hotmail.com
-2020-08-14T06:47:56.298295+00:00 app[api]: Deploy 68acb0a2 by user j.cezar19@hotmail.com
-2020-08-14T06:47:56.298295+00:00 app[api]: Release v7 created by user j.cezar19@hotmail.com
-2020-08-14T06:47:56.451552+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-14T06:48:01.403934+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=21494 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T06:48:03.453106+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T06:48:03.504252+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T06:48:03.548588+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-14T06:48:05.000000+00:00 app[api]: Build succeeded
-2020-08-14T06:50:15.969967+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-14T06:50:20.337400+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=20758 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T06:50:23.032444+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T06:50:23.087422+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T06:50:23.131207+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-14T06:51:49.000000+00:00 app[api]: Build started by user j.cezar19@hotmail.com
-2020-08-14T06:52:22.265184+00:00 app[api]: Release v8 created by user j.cezar19@hotmail.com
-2020-08-14T06:52:22.265184+00:00 app[api]: Deploy fc1a8750 by user j.cezar19@hotmail.com
-2020-08-14T06:52:22.436804+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-14T06:52:26.486575+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=3209 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T06:52:28.886243+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T06:52:28.966372+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T06:52:29.011382+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-14T06:52:31.000000+00:00 app[api]: Build succeeded
-2020-08-14T06:54:50.000000+00:00 app[api]: Build started by user j.cezar19@hotmail.com
-2020-08-14T06:55:13.219058+00:00 app[api]: Release v9 created by user j.cezar19@hotmail.com
-2020-08-14T06:55:13.219058+00:00 app[api]: Deploy bb84bb27 by user j.cezar19@hotmail.com
-2020-08-14T06:55:13.538601+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-14T06:55:17.791473+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=59516 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T06:55:20.290310+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T06:55:20.333136+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T06:55:20.381622+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-14T06:55:21.000000+00:00 app[api]: Build succeeded
-2020-08-14T07:14:35.238176+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=spring-mvc-julio.herokuapp.com request_id=87e0b857-8ebd-40b2-8d31-20eb5182778d fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
-2020-08-14T07:14:35.787732+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=spring-mvc-julio.herokuapp.com request_id=324273c1-3955-4991-9f0e-280c07cb68a3 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
-2020-08-14T07:20:32.895622+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-14T07:20:37.631552+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=11606 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T07:20:40.379065+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T07:20:40.434028+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T07:20:40.485984+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-14T07:46:39.717532+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-14T07:46:44.831570+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=14654 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T07:46:47.740955+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T07:46:47.817780+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T07:46:47.873872+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-14T08:27:05.003264+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-14T08:27:08.715270+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=11237 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T08:27:10.255228+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T08:27:10.294209+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T08:27:10.325309+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-14T09:50:26.657594+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-14T09:50:31.440739+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=24852 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T09:50:34.104920+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T09:50:34.167491+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T09:50:34.210609+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-14T12:42:07.088528+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-14T12:42:12.035382+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=11890 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T12:42:14.860950+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T12:42:14.914322+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T12:42:14.968623+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-14T18:31:31.957663+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-14T18:31:36.727357+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=58887 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-14T18:31:39.886517+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-14T18:31:39.956930+00:00 heroku[web.1]: Process exited with status 0
-2020-08-14T18:31:40.009054+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-15T00:00:05.307163+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-15T00:00:09.420806+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=53454 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-15T00:00:11.489431+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-15T00:00:11.532345+00:00 heroku[web.1]: Process exited with status 0
-2020-08-15T00:00:11.565173+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-15T05:36:37.862600+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-15T05:36:42.386927+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=20727 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-15T05:36:44.187614+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-15T05:36:44.231882+00:00 heroku[web.1]: Process exited with status 0
-2020-08-15T05:36:44.267005+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-15T11:05:10.877378+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-15T11:05:15.578674+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=33183 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-15T11:05:19.438233+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-15T11:05:19.534384+00:00 heroku[web.1]: Process exited with status 0
-2020-08-15T11:05:19.576515+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-15T16:55:33.481913+00:00 heroku[web.1]: State changed from crashed to starting
-2020-08-15T16:55:37.262279+00:00 heroku[web.1]: Starting process with command `: java -Dserver.port=4122 -Dspring.profiles.active=prod -jar target/site-0.0.1-SNAPSHOT.jar`
-2020-08-15T16:55:39.160104+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2020-08-15T16:55:39.209864+00:00 heroku[web.1]: Process exited with status 0
-2020-08-15T16:55:39.243341+00:00 heroku[web.1]: State changed from starting to crashed
-2020-08-15T21:55:40.364123+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=spring-mvc-julio.herokuapp.com request_id=84b8523a-088f-464e-93d8-42ca553eba55 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
-2020-08-15T21:55:41.474621+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=spring-mvc-julio.herokuapp.com request_id=2ca7f53a-5053-48c8-ae5c-2c1b29943148 fwd="45.175.34.237" dyno= connect= service= status=503 bytes= protocol=https
-
+2020-08-15T22:45:33.266014+00:00 app[web.1]: at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.266015+00:00 app[web.1]: at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.266015+00:00 app[web.1]: at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262-heroku]
+2020-08-15T22:45:33.266015+00:00 app[web.1]: at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262-heroku]
+2020-08-15T22:45:33.266016+00:00 app[web.1]: at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.266016+00:00 app[web.1]: at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262-heroku]
+2020-08-15T22:45:33.266017+00:00 app[web.1]: 
+2020-08-15T22:45:33.273746+00:00 app[web.1]: 2020-08-15 22:45:33.273 ERROR 4 --- [io-56686-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [Layout], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "home" - line 4, col 4)] with root cause
+2020-08-15T22:45:33.273748+00:00 app[web.1]: 
+2020-08-15T22:45:33.273749+00:00 app[web.1]: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [Layout], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "home" - line 4, col 4)
+2020-08-15T22:45:33.273757+00:00 app[web.1]: at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273757+00:00 app[web.1]: at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:250) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273758+00:00 app[web.1]: at org.thymeleaf.engine.TemplateManager$parseStandalone.call(Unknown Source) ~[na:na]
+2020-08-15T22:45:33.273758+00:00 app[web.1]: at nz.net.ultraq.thymeleaf.models.TemplateModelFinder.find(TemplateModelFinder.groovy:57) ~[thymeleaf-layout-dialect-2.4.1.jar!/:na]
+2020-08-15T22:45:33.273759+00:00 app[web.1]: at nz.net.ultraq.thymeleaf.models.TemplateModelFinder.find(TemplateModelFinder.groovy) ~[thymeleaf-layout-dialect-2.4.1.jar!/:na]
+2020-08-15T22:45:33.273759+00:00 app[web.1]: at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262-heroku]
+2020-08-15T22:45:33.273760+00:00 app[web.1]: at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262-heroku]
+2020-08-15T22:45:33.273761+00:00 app[web.1]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262-heroku]
+2020-08-15T22:45:33.273762+00:00 app[web.1]: at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262-heroku]
+2020-08-15T22:45:33.273762+00:00 app[web.1]: at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43) ~[groovy-2.5.9.jar!/:2.5.9]
+2020-08-15T22:45:33.273763+00:00 app[web.1]: at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190) ~[groovy-2.5.9.jar!/:2.5.9]
+2020-08-15T22:45:33.273763+00:00 app[web.1]: at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58) ~[groovy-2.5.9.jar!/:2.5.9]
+2020-08-15T22:45:33.273764+00:00 app[web.1]: at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-2.5.9.jar!/:2.5.9]
+2020-08-15T22:45:33.273764+00:00 app[web.1]: at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156) ~[groovy-2.5.9.jar!/:2.5.9]
+2020-08-15T22:45:33.273764+00:00 app[web.1]: at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168) ~[groovy-2.5.9.jar!/:2.5.9]
+2020-08-15T22:45:33.273765+00:00 app[web.1]: at nz.net.ultraq.thymeleaf.models.TemplateModelFinder.findTemplate(TemplateModelFinder.groovy:112) ~[thymeleaf-layout-dialect-2.4.1.jar!/:na]
+2020-08-15T22:45:33.273765+00:00 app[web.1]: at nz.net.ultraq.thymeleaf.models.TemplateModelFinder$findTemplate$0.call(Unknown Source) ~[na:na]
+2020-08-15T22:45:33.273765+00:00 app[web.1]: at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-2.5.9.jar!/:2.5.9]
+2020-08-15T22:45:33.273766+00:00 app[web.1]: at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115) ~[groovy-2.5.9.jar!/:2.5.9]
+2020-08-15T22:45:33.273766+00:00 app[web.1]: at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127) ~[groovy-2.5.9.jar!/:2.5.9]
+2020-08-15T22:45:33.273766+00:00 app[web.1]: at nz.net.ultraq.thymeleaf.decorators.DecorateProcessor.doProcess(DecorateProcessor.groovy:119) ~[thymeleaf-layout-dialect-2.4.1.jar!/:na]
+2020-08-15T22:45:33.273767+00:00 app[web.1]: at org.thymeleaf.processor.element.AbstractAttributeModelProcessor.doProcess(AbstractAttributeModelProcessor.java:77) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273767+00:00 app[web.1]: at org.thymeleaf.processor.element.AbstractElementModelProcessor.process(AbstractElementModelProcessor.java:98) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273767+00:00 app[web.1]: at org.thymeleaf.util.ProcessorConfigurationUtils$ElementModelProcessorWrapper.process(ProcessorConfigurationUtils.java:649) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273768+00:00 app[web.1]: at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1510) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273768+00:00 app[web.1]: at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273775+00:00 app[web.1]: at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273776+00:00 app[web.1]: at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273776+00:00 app[web.1]: at org.thymeleaf.engine.GatheringModelProcessable.process(GatheringModelProcessable.java:78) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273776+00:00 app[web.1]: at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273776+00:00 app[web.1]: at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273777+00:00 app[web.1]: at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273777+00:00 app[web.1]: at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273777+00:00 app[web.1]: at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273777+00:00 app[web.1]: at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273778+00:00 app[web.1]: at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273778+00:00 app[web.1]: at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar!/:3.0.11.RELEASE]
+2020-08-15T22:45:33.273778+00:00 app[web.1]: at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) ~[spring-webmvc-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273779+00:00 app[web.1]: at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) ~[spring-webmvc-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273779+00:00 app[web.1]: at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273779+00:00 app[web.1]: at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273780+00:00 app[web.1]: at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273780+00:00 app[web.1]: at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273780+00:00 app[web.1]: at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273781+00:00 app[web.1]: at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273781+00:00 app[web.1]: at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273781+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273782+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273782+00:00 app[web.1]: at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273782+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273783+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273783+00:00 app[web.1]: at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:64) ~[spring-webmvc-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273783+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273784+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273784+00:00 app[web.1]: at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273784+00:00 app[web.1]: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273789+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273789+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273790+00:00 app[web.1]: at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273790+00:00 app[web.1]: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273791+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273791+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273791+00:00 app[web.1]: at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273792+00:00 app[web.1]: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar!/:5.2.3.RELEASE]
+2020-08-15T22:45:33.273792+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273792+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273793+00:00 app[web.1]: at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273793+00:00 app[web.1]: at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273793+00:00 app[web.1]: at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273794+00:00 app[web.1]: at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273794+00:00 app[web.1]: at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273795+00:00 app[web.1]: at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273795+00:00 app[web.1]: at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:747) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273795+00:00 app[web.1]: at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273795+00:00 app[web.1]: at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273796+00:00 app[web.1]: at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273796+00:00 app[web.1]: at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273796+00:00 app[web.1]: at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273797+00:00 app[web.1]: at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273797+00:00 app[web.1]: at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262-heroku]
+2020-08-15T22:45:33.273797+00:00 app[web.1]: at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262-heroku]
+2020-08-15T22:45:33.273798+00:00 app[web.1]: at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.30.jar!/:9.0.30]
+2020-08-15T22:45:33.273798+00:00 app[web.1]: at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262-heroku]
+2020-08-15T22:45:33.273798+00:00 app[web.1]: 
+2020-08-15T22:45:33.521974+00:00 heroku[router]: at=info method=GET path="/" host=spring-mvc-julio.herokuapp.com request_id=f97b38e9-296f-4793-a39a-3b4edce8d3a6 fwd="45.175.34.237" dyno=web.1 connect=0ms service=1204ms status=500 bytes=1344 protocol=https
+2020-08-15T22:45:34.131741+00:00 heroku[router]: at=info method=GET path="/webjars/bootstrap/css/bootstrap.min.css" host=spring-mvc-julio.herokuapp.com request_id=49e51cf7-7af2-48be-82f8-4426090dfc81 fwd="45.175.34.237" dyno=web.1 connect=0ms service=34ms status=200 bytes=145155 protocol=https
+2020-08-15T22:45:34.436797+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=spring-mvc-julio.herokuapp.com request_id=9aea1de0-3d77-4881-93ce-e5181a84a03d fwd="45.175.34.237" dyno=web.1 connect=0ms service=5ms status=200 bytes=1783 protocol=https
+2020-08-15T22:45:34.437921+00:00 heroku[router]: at=info method=GET path="/webjars/open-iconic/font/css/open-iconic-bootstrap.min.css" host=spring-mvc-julio.herokuapp.com request_id=91611a38-66f8-4412-a577-5140bf024736 fwd="45.175.34.237" dyno=web.1 connect=1ms service=6ms status=200 bytes=9671 protocol=https
+2020-08-15T22:45:34.882455+00:00 heroku[router]: at=info method=GET path="/webjars/open-iconic/font/fonts/open-iconic.woff" host=spring-mvc-julio.herokuapp.com request_id=be9920e6-9416-49eb-9371-f8c47fbb8239 fwd="45.175.34.237" dyno=web.1 connect=0ms service=15ms status=200 bytes=15274 protocol=https
+2020-08-15T22:45:35.172087+00:00 heroku[router]: at=info method=GET path="/image/favicon.png" host=spring-mvc-julio.herokuapp.com request_id=989eb2e0-86c5-4c88-a4d4-5225c387a812 fwd="45.175.34.237" dyno=web.1 connect=0ms service=6ms status=200 bytes=8362 protocol=https
 
