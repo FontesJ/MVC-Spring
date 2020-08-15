@@ -27,7 +27,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="071becc6-ebae-4b9f-ac99-b78bf06fc09b" name="Default Changelist" comment="" />
+    <list default="true" id="071becc6-ebae-4b9f-ac99-b78bf06fc09b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-julio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +48,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1er6Jm5XZS99PBDFFu78JkRFnat" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fintech-Java/Trabalho 6 - Fintech" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -119,10 +124,10 @@
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state x="1774" y="311" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/1366.0.1280.1024/0.27.1366.741@1366.0.1280.1024" timestamp="1595068523847" />
-    <state x="1825" y="277" width="424" height="491" key="FileChooserDialogImpl" timestamp="1595068861355">
+    <state x="1825" y="277" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597529241450">
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
-    <state x="1825" y="277" width="424" height="491" key="FileChooserDialogImpl/1366.0.1280.1024/0.27.1366.741@1366.0.1280.1024" timestamp="1595068861355" />
+    <state x="1825" y="277" width="424" height="491" key="FileChooserDialogImpl/1366.0.1280.1024/0.27.1366.741@1366.0.1280.1024" timestamp="1597529241450" />
     <state width="1162" height="794" key="GridCell.Tab.0.bottom" timestamp="1597389742062">
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
