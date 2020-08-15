@@ -22,11 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="071becc6-ebae-4b9f-ac99-b78bf06fc09b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/departamento/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/departamento/cadastro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/departamento/lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/departamento/lista.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="071becc6-ebae-4b9f-ac99-b78bf06fc09b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
