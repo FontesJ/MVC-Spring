@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import javax.validation.Valid;
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 @RequestMapping("/cargos")
@@ -28,8 +29,13 @@ public class CargoController {
     }
 
     @GetMapping("/listar")
-    public String listar(ModelMap model) {
-        model.addAttribute("cargos", cargoService.buscarTodos());
+    public String listar(ModelMap model, @RequestParam("page") Optional<Integer> page) {
+
+        int paginaAtual = page.orElse(1);
+
+        PaginacaoUtil<Cargo> pageCargo = cargoService.buscarPorPagina(paginaAtual);
+
+        model.addAttribute("pageCargo", pageCargo);
         return "cargo/lista";
     }
 
@@ -74,4 +80,5 @@ public class CargoController {
     public List<Departamento> listaDeDepartamentos() {
         return departamentoService.buscarTodos();
     }
+
 }

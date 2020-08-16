@@ -17,4 +17,6 @@ public interface CargoService {
     List<Cargo> buscarTodos();
 
     boolean cargoTemFuncionarios(Long id);
+
+    PaginacaoUtil<Cargo> buscarPorPagina(int pagina)
 }

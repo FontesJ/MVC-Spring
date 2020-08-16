@@ -14,4 +14,6 @@ public interface CargoDAO {
     Cargo findById(Long id);
 
     List<Cargo> findAll();
+
+    PaginacaoUtil<Cargo> buscaPaginada(int pagina);
 }
