@@ -23,20 +23,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="071becc6-ebae-4b9f-ac99-b78bf06fc09b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/util/PaginacaoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MVC-Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MVC-Spring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/dao/CargoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/dao/CargoDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/dao/CargoDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/dao/CargoDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/service/CargoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/service/CargoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/service/CargoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/service/CargoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/util/PaginacaoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/util/PaginacaoUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/web/controller/CargoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meuSite/teste/web/controller/CargoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cargo/lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cargo/lista.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,6 +136,10 @@
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state x="1774" y="311" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/1366.0.1280.1024/0.27.1366.741@1366.0.1280.1024" timestamp="1595068523847" />
+    <state x="1715" y="381" width="643" height="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597547100827">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1715" y="381" width="643" height="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1366.0.1280.1024/0.27.1366.741@1366.0.1280.1024" timestamp="1597547100827" />
     <state x="1825" y="277" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597529241450">
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
@@ -152,10 +160,10 @@
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state width="1162" height="794" key="GridCell.Tab.0.right/1366.0.1280.1024/0.27.1366.741@1366.0.1280.1024" timestamp="1597389742062" />
-    <state x="1525" y="96" width="1024" height="852" key="SettingsEditor" timestamp="1597545466996">
+    <state x="1525" y="96" width="1024" height="852" key="SettingsEditor" timestamp="1597546682414">
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
-    <state x="1525" y="96" width="1024" height="852" key="SettingsEditor/1366.0.1280.1024/0.27.1366.741@1366.0.1280.1024" timestamp="1597545466996" />
+    <state x="1525" y="96" width="1024" height="852" key="SettingsEditor/1366.0.1280.1024/0.27.1366.741@1366.0.1280.1024" timestamp="1597546682414" />
     <state x="1438" y="121" width="1208" height="803" key="new project wizard" timestamp="1597384297861">
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>

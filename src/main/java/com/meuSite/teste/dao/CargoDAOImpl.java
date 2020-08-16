@@ -2,6 +2,8 @@ package com.meuSite.teste.dao;
 
 import com.meuSite.teste.domain.Cargo;
 import org.springframework.stereotype.Repository;
+import util.PaginacaoUtil;
+import java.util.List;
 
 @Repository
 public class CargoDAOImpl extends AbstractDao<Cargo, Long> implements CargoDAO {
@@ -18,7 +20,7 @@ public class CargoDAOImpl extends AbstractDao<Cargo, Long> implements CargoDAO {
         long totalRegistros = count();
         long totalPaginas = (totalRegistros + (tamanho-1)) / tamanho;
 
-        return new PaginacaoUtil<>(tamanho, pagina, totalPaginas, Cargos);
+        return new PaginacaoUtil<>(tamanho, pagina, totalPaginas, Cargo);
     }
 
     public long count(){

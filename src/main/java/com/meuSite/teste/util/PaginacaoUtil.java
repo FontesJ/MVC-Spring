@@ -1,3 +1,7 @@
+package util;
+
+import java.util.List;
+
 public class PaginacaoUtil<T> {
 
     private int tamanho;

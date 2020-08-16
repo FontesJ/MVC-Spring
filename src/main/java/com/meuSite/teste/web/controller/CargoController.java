@@ -1,4 +1,4 @@
-package com.meuSite.teste.web.controller;
+package web.controller;
 
 import com.meuSite.teste.domain.Cargo;
 import com.meuSite.teste.domain.Departamento;

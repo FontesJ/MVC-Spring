@@ -1,8 +1,9 @@
 package com.meuSite.teste.service;
 
 import com.meuSite.teste.domain.Cargo;
+import util.PaginacaoUtil;
 
-        import java.util.List;
+import java.util.List;
 
 public interface CargoService {
 

@@ -1,6 +1,8 @@
 package com.meuSite.teste.dao;
 
 import com.meuSite.teste.domain.Cargo;
+import util.PaginacaoUtil;
+
 import java.util.List;
 
 public interface CargoDAO {
