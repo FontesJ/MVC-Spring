@@ -1,8 +1,7 @@
 package com.meuSite.teste.dao;
 
 import com.meuSite.teste.domain.Cargo;
-import util.PaginacaoUtil;
-
+import com.meuSite.teste.util.PaginacaoUtil;
 import java.util.List;
 
 public interface CargoDAO {
@@ -17,5 +16,5 @@ public interface CargoDAO {
 
     List<Cargo> findAll();
 
-    PaginacaoUtil<Cargo> buscaPaginada(int pagina);
+    PaginacaoUtil<Cargo> buscaPaginada(int pagina, String direcao);
 }

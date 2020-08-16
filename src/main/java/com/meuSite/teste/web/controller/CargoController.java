@@ -1,9 +1,10 @@
-package web.controller;
+package com.meuSite.teste.web.controller;
 
 import com.meuSite.teste.domain.Cargo;
 import com.meuSite.teste.domain.Departamento;
 import com.meuSite.teste.service.CargoService;
 import com.meuSite.teste.service.DepartamentoService;
+import com.meuSite.teste.util.PaginacaoUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -29,13 +30,16 @@ public class CargoController {
     }
 
     @GetMapping("/listar")
-    public String listar(ModelMap model, @RequestParam("page") Optional<Integer> page) {
+    public String listar(ModelMap model, @RequestParam("page") Optional<Integer> page,
+                                         @RequestParam("dir") Optional<String> dir) {
 
         int paginaAtual = page.orElse(1);
+        String ordem = dir.orElse("asc");
 
-        PaginacaoUtil<Cargo> pageCargo = cargoService.buscarPorPagina(paginaAtual);
+        PaginacaoUtil<Cargo> pageCargo = cargoService.buscarPorPagina(paginaAtual, ordem);
 
         model.addAttribute("pageCargo", pageCargo);
+
         return "cargo/lista";
     }
 

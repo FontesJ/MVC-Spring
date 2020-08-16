@@ -1,7 +1,7 @@
 package com.meuSite.teste.service;
 
 import com.meuSite.teste.domain.Cargo;
-import util.PaginacaoUtil;
+import com.meuSite.teste.util.PaginacaoUtil;
 
 import java.util.List;
 
@@ -19,5 +19,5 @@ public interface CargoService {
 
     boolean cargoTemFuncionarios(Long id);
 
-    PaginacaoUtil<Cargo> buscarPorPagina(int pagina)
+    PaginacaoUtil<Cargo> buscaPaginada(int pagina, String direcao);
 }

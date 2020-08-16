@@ -1,4 +1,4 @@
-package util;
+package com.meuSite.teste.util;
 
 import java.util.List;
 
@@ -6,13 +6,15 @@ public class PaginacaoUtil<T> {
 
     private int tamanho;
     private int pagina;
-    private int totalPaginas;
+    private long totalPaginas;
+    private String direcao;
     private List<T> registros;
 
-    public PaginacaoUtil(int tamanho, int pagina, int totalPaginas, List<T> registros) {
+    public PaginacaoUtil(int tamanho, int pagina, long totalPaginas, String direcao, List<T> registros) {
         this.tamanho = tamanho;
         this.pagina = pagina;
         this.totalPaginas = totalPaginas;
+        this.direcao = direcao;
         this.registros = registros;
     }
 
@@ -24,11 +26,15 @@ public class PaginacaoUtil<T> {
         return pagina;
     }
 
-    public int getTotalPaginas() {
+    public long getTotalPaginas() {
         return totalPaginas;
     }
 
     public List<T> getRegistros() {
         return registros;
+    }
+
+    public String getDirecao() {
+        return direcao;
     }
 }

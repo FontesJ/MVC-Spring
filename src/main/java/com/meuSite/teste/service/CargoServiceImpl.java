@@ -2,11 +2,10 @@ package com.meuSite.teste.service;
 
 import com.meuSite.teste.dao.CargoDAO;
 import com.meuSite.teste.domain.Cargo;
+import com.meuSite.teste.util.PaginacaoUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import util.PaginacaoUtil;
-
 import java.util.List;
 
 @Service @Transactional(readOnly= false)
@@ -49,7 +48,7 @@ public class CargoServiceImpl implements CargoService {
     }
 
     @Override
-    public PaginacaoUtil<Cargo> buscarPorPagina(int pagina) {
-        return dao.buscaPaginada(pagina);
+    public PaginacaoUtil<Cargo> buscarPorPagina(int pagina, String direcao) {
+        return dao.buscaPaginada(pagina, direcao);
     }
 }
